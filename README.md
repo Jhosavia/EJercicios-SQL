@@ -1,4 +1,5 @@
 # EJercicios-SQL
+  ** BASIC **
 1. *SQL SELECT Practice Exercise
    Your given a products table, which contains data about different Microsoft Azure cloud products.
    SELECT * FROM products;
@@ -33,6 +34,15 @@ Pro Tip: Try coding up, and executing, each filtering condition, one at a time. 
     - and did not sell between 55,000 and 550,000 units
    SELECT manufacturer, drug, units_sold FROM pharmacy_sales WHERE manufacturer  
    IN ('Roche', 'Bayer', 'AstraZeneca') AND NOT units_sold BETWEEN 55000 AND 550000;
-Output the manufacturer name, drug name, and the # of units sold. for all the medicines which match that criteria.
-8. *SQL LIKE Practice Exercise
+8. *SQL LIKE % Practice Exercise
+   You have a table of 1000 customer records from a small-business based in Australia.
+   Find all customers whose first name starts with "F" and the last letter in their last name is "ck".
+     SELECT * FROM customers WHERE customer_name LIKE 'F%ck' ;
+9. *SQL LIKE _ Practice Exercise
+   You have a table of 1000 customer records from a small-business based in Australia.
+   Find all customers where the 2nd and 3rd letter in their name is "e".
+     SELECT * FROM customers WHERE customer_name LIKE '_ee%';
 11. *SQL Practice Exercise
+
+  ** INTERMEDIO **
+11. 
