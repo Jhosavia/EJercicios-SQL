@@ -42,7 +42,14 @@ Pro Tip: Try coding up, and executing, each filtering condition, one at a time. 
    You have a table of 1000 customer records from a small-business based in Australia.
    Find all customers where the 2nd and 3rd letter in their name is "e".
      SELECT * FROM customers WHERE customer_name LIKE '_ee%';
-11. *SQL Practice Exercise
-
+10. *SQL Filtering Practice Exercise #1
+   You have a table of 1000 customer records from a small-business based in Australia.
+   Find all customers who are between the ages of 18 and 22 (inclusive), live in either Victoria, Tasmania,
+   Queensland, their gender isn't "n/a", and their name starts with either 'A' or 'B'.
+     SELECT * FROM customers WHERE age BETWEEN 18 AND 22 AND state IN ('Tasmania', 'Queensland', 'Victoria')
+     AND gender != 'n/a' AND (customer_name LIKE 'A%' OR customer_name LIKE 'B%');
+11. *SQL ORDEN BY
+    ORDEN BY colum ASC
+    ORDEN BY colum DES
   ** INTERMEDIO **
-11. 
+13. 
