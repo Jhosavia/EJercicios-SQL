@@ -1,18 +1,1 @@
-Practica
-Preg. Given the reviews table, write a query to retrieve all 3-star reviews using the SQL WHERE clause. Only display the user_id and stars columns.
-Sol. SELECT user_id, stars FROM reviews WHERE stars = 3;
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
+
